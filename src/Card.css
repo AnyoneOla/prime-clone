@@ -1,0 +1,22 @@
+.card-main{
+    display: inline-block;
+    height: 150px;
+    width: 250px;
+    background-color: white;
+    border-radius: 8px;
+    margin:8px;
+    transition: transform 0.6s ease;
+    box-shadow: inset -5px -5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-main:hover{
+    transform: scale(1.1);    
+}
+
+.card-main img{
+    position: inline-block;
+    height: 152px;
+    width: 252px;
+    border-radius: 8px;
+    object-fit: cover;
+}

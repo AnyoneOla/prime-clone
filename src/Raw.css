@@ -1,0 +1,23 @@
+.raw-main{
+    position: relative;
+    z-index: 10;
+    left: 8vw;
+    height: 200px;
+}
+
+.card-container{
+    width: 92vw;
+    white-space: nowrap; /* Prevent items from wrapping */
+    padding-bottom: 900px; 
+    margin-bottom: -900px;
+    overflow-x: auto;
+    padding-left: 10px;
+}
+
+.raw-title{
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-left: 1%;
+    font-weight: 800;
+}

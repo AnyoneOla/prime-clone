@@ -1,0 +1,135 @@
+.sidebar-main{
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 100vh;
+    background: linear-gradient(to right, rgba(0,0,0,0.5), #1E2936);
+    z-index: 5;
+}
+
+.profile-pic{
+    height: 30px;
+    width: 30px;
+    position: fixed;
+    top: 8vh;
+    border-radius: 50%;
+    border: 0.5px solid black;
+    margin: 22px;
+    cursor: pointer;
+}
+
+.profile-pic img{
+    height: 30px;
+    width: 30px;
+    top: 8vh;
+    border-radius: 50%;
+}
+
+.profile-pic img:hover{
+    filter: brightness(0.8);
+}
+
+.search-btn{
+    position: relative;
+    top: 13.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    cursor:pointer;
+}
+
+.home-btn{
+    position: relative;
+    top: 13.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    cursor:pointer;
+}
+
+.shop-btn{
+    position: relative;
+    top: 13.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    cursor:pointer;
+}
+
+.tv-btn{
+    position: relative;
+    top: 13.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    cursor:pointer;
+}
+
+.lit-btn{
+    position: relative;
+    top: 13.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    cursor:pointer;
+}
+
+.library-btn{
+    position: relative;
+    top: 13.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    cursor:pointer;
+}
+
+.search-btn img:hover{
+    filter: brightness(0.5);
+}
+
+.home-btn img:hover{
+    filter: brightness(0.5);
+}
+
+.shop-btn img:hover{
+    filter: brightness(0.5);
+}
+
+.tv-btn img:hover{
+    filter: brightness(0.5);
+}
+
+.lit-btn img:hover{
+    filter: brightness(0.5);
+}
+
+.library-btn img:hover{
+    filter: brightness(0.5);
+}
