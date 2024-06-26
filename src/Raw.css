@@ -22,7 +22,7 @@
     font-weight: 800;
 }
 
-.card-container::-webkit-scrollbar {
+.card-container::-webkit-scrollbar{
     width: 0;
     height: 0;
-  }
+}
