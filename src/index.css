@@ -4,3 +4,8 @@ body{
   font-family: 'Netflix Sans', Arial, sans-serif;
   overflow-x: hidden;
 }
+
+html::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
